@@ -11,8 +11,9 @@ def make_plot(sentiments: list) -> list:
         [sentiment_counts (dict), most_common (str), most_common_count (int)]
     Saves bar chart to 'images/custom_sentiment_counts.png'.
     """
-    
+              
     # Count each sentiment from the list
+    #data =()
     pos_count = sentiments.count("positive")
     neg_count = sentiments.count("negative")
     neu_count = sentiments.count("neutral")
